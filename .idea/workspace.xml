@@ -4,23 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a622077-55be-4947-8db1-a040f7db4329" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/headfirst-design-pattern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/fly/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/fly/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/fly/FlyWithLegs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/fly/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/quack/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/quack/QuackLoud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/quack/QuackQuiet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/behavior/quack/QuackSilent.java" afterDir="false" />
+    <list default="true" id="4a622077-55be-4947-8db1-a040f7db4329" name="Changes" comment="feat: 전략패턴">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObserverEndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/OnlyPressureDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/subject/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/subject/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/OnlyPressureDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/subject/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/subject/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyEndPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,28 +46,43 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.ObserverEndPoint.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mac96/workspace/headfirst-design-pattern/src/observer/pulltype",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mac96\workspace\headfirst-design-pattern\src\observer\pulltype" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ObserverEndPoint">
+    <configuration name="ObserverEndPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObserverEndPoint" />
+      <module name="headfirst-design-pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrategyEndPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrategyEndPoint" />
       <module name="headfirst-design-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,7 +90,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ObserverEndPoint" />
+        <item itemvalue="Application.StrategyEndPoint" />
       </list>
     </recent_temporary>
   </component>
@@ -95,12 +111,37 @@
       <option name="presentableId" value="Default" />
       <updated>1710161735629</updated>
       <workItem from="1710161736694" duration="1262000" />
-      <workItem from="1710163751439" duration="2556000" />
+      <workItem from="1710163751439" duration="2787000" />
+      <workItem from="1710246538994" duration="2668000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 전략패턴">
+      <option name="closed" value="true" />
+      <created>1710166781990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710166781991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 전략패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 전략패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

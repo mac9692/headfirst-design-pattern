@@ -1,6 +1,6 @@
 import strategy.Duck;
 
-public class Main {
+public class StrategyEndPoint {
     public static void main(String[] args) {
         Duck duck = Duck.getFlyWithLegAndLoudDuck();
         duck.fly();
