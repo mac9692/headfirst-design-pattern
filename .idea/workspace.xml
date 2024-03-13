@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a622077-55be-4947-8db1-a040f7db4329" name="Changes" comment="feat: 전략패턴">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ObserverEndPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/behavior/OnlyPressureDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/subject/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pulltype/subject/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/behavior/OnlyPressureDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/subject/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/observer/pushtype/subject/Weather.java" afterDir="false" />
+    <list default="true" id="4a622077-55be-4947-8db1-a040f7db4329" name="Changes" comment="feat: 옵저버패턴">
+      <change afterPath="$PROJECT_DIR$/src/decorator/component/EventValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/component/OptionalValueValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/component/RequiredValueValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/component/ValidateDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/decorator/component/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/endpioint/DecoratorEndPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StrategyEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ObserverEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpioint/ObserverEndPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StrategyEndPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/endpioint/StrategyEndPoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +29,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -48,6 +46,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DecoratorEndPoint.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ObserverEndPoint.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -73,16 +72,29 @@
       <recent name="C:\Users\mac96\workspace\headfirst-design-pattern\src\observer\pulltype" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObserverEndPoint">
+  <component name="RunManager" selected="Application.DecoratorEndPoint">
+    <configuration name="DecoratorEndPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="endpioint.DecoratorEndPoint" />
+      <module name="headfirst-design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="endpioint.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ObserverEndPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ObserverEndPoint" />
+      <option name="MAIN_CLASS_NAME" value="endpioint.ObserverEndPoint" />
       <module name="headfirst-design-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StrategyEndPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StrategyEndPoint" />
+      <option name="MAIN_CLASS_NAME" value="endpioint.StrategyEndPoint" />
       <module name="headfirst-design-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorEndPoint" />
         <item itemvalue="Application.ObserverEndPoint" />
         <item itemvalue="Application.StrategyEndPoint" />
       </list>
@@ -112,7 +125,8 @@
       <updated>1710161735629</updated>
       <workItem from="1710161736694" duration="1262000" />
       <workItem from="1710163751439" duration="2787000" />
-      <workItem from="1710246538994" duration="2668000" />
+      <workItem from="1710246538994" duration="3175000" />
+      <workItem from="1710339360159" duration="1860000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 전략패턴">
       <option name="closed" value="true" />
@@ -122,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710166781991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: 옵저버패턴">
+      <option name="closed" value="true" />
+      <created>1710251799073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710251799073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,7 +155,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -141,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 전략패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 전략패턴" />
+    <MESSAGE value="feat: 옵저버패턴" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 옵저버패턴" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

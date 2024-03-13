@@ -1,3 +1,5 @@
+package endpioint;
+
 import strategy.Duck;
 
 public class StrategyEndPoint {
